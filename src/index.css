@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-surface: #0b1326;
+    --color-surface-dim: #0b1326;
+    --color-surface-bright: #31394d;
+    --color-surface-container-lowest: #060e20;
+    --color-surface-container-low: #131b2e;
+    --color-surface-container: #171f33;
+    --color-surface-container-high: #222a3d;
+    --color-surface-container-highest: #2d3449;
+    --color-primary: #68dba9;
+    --color-primary-dim: #059669;
+    --color-secondary: #ffb95f;
+    --color-tertiary: #4cd7f6;
+    --color-error: #ef4444;
+    --color-border: #334155;
+  }
+
+  body {
+    background-color: #0b1326;
+    color: #dae2fd;
+    font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom Tactical HUD styles */
+.hud-card {
+  background: rgba(19, 27, 46, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #334155;
+  border-radius: 4px;
+}
+
+.hud-pill {
+  background: #131b2e;
+  border: 1px solid #334155;
+  border-radius: 4px;
+}
+
+.hud-pill-active {
+  border-color: #68dba9;
+  box-shadow: 0 0 10px rgba(104, 219, 169, 0.15);
+}
+
+.hud-pill-warning {
+  border-color: #ffb95f;
+  box-shadow: 0 0 10px rgba(255, 185, 95, 0.15);
+}
+
+.hud-pill-danger {
+  border-color: #ef4444;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.2);
+}
+
+.tactical-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(51, 65, 85, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(51, 65, 85, 0.2) 1px, transparent 1px);
+}
+
+.scanline {
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0) 50%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.2)
+  );
+  background-size: 100% 4px;
+}

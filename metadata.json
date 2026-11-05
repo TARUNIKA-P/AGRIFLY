@@ -1,0 +1,6 @@
+{
+  "name": "AgriFly Precision Flight",
+  "description": "Decentralized edge-AI multi-drone swarm system for autonomous GPS-denied canopy navigation and precision micro-spraying with Indian Rupee savings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

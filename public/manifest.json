@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "AgriFly Precision Flight",
+  "short_name": "AgriFly",
+  "description": "Decentralized edge-AI multi-drone swarm system for autonomous canopy navigation, micro-spraying, and crop protection in Indian Rupees.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0b1326",
+  "background_color": "#0b1326",
+  "categories": ["agriculture", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
